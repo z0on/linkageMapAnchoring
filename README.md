@@ -19,7 +19,7 @@ In this way the scaffold segments are forced to be contiguous, i.e., we trust th
 
 The key parameter in vcf2map.pl is cmmb - centimorgan per megabase (recombination rate). The rate estimated from data seems to be too high, so set it reasonably: a good guess is length of the linkage map divided by the size of the genome.
 
-Too high rec.rate will cause scaffold coordinates to overlap. Use To mapAnchoring_tests.R to see if this is the case. 
+Too high rec.rate will cause scaffold coordinates to overlap. Use mapAnchoring_tests.R to see if this is the case. 
 
 An accessory script scaffoldContiguityInLinkageMaps.R is to see whether the linkage map is more or less true to the scaffolds, i.e., does not break them up too much.
 
