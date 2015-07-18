@@ -7,7 +7,7 @@ May 2015
 The goal is to take a VCF file with variants within genomic scaffolds, a table with linkage map positions for
 some of these variants, and create a VCF file with all variants rewritten in chromosome-wide base coordinates.
 
-The main script is vcf2map.pl does the following:
+The main script (vcf2map.pl) does the following:
 - extracts consistently mapped segments (two or more consecutive markers mapping to the same linkage group);
 - determines average map location and orientation of the segments (calculated from base pair difference between the first half and second half of markers);
 - calculates local recombination rate (cM/Mb) - I find this pretty noisy though;
